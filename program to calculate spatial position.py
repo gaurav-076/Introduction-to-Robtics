@@ -8,7 +8,7 @@ co[2] = float(input('Enter the coordinate of Z : '))
 ch = 'y'
 while ch == 'y':
     a = input('Enter rotation axis: ')
-    th = float(input('Enter rotation angel: '))
+    th = float(input('Enter rotation angle: '))
     rot = np.zeros((4, 4))
     rot[3][3] = 1
     if a == 'x':
